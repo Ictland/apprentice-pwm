@@ -8,3 +8,5 @@ echo "ユーザー名を入力してください："
 read username
 echo "パスワードを入力してください："
 read password
+
+echo "$service_name:$username:$password" >> passwords.txt
